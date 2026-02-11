@@ -2,7 +2,6 @@
 # Facial Expression Analysis and Emotion Simulation  
 ## CVAE + StyleGAN Hybrid Approach for Mental Health Applications
 
----
 
 ## Project Overview
 
@@ -56,7 +55,7 @@ Basic preprocessing and data augmentation are applied.
 
 ## Models Used
 
-### 1️⃣ Emotion Classifier
+### Emotion Classifier
 - Architecture: **ResNet18**
 - Fine-tuned for 8 emotion classes
 - Evaluation metrics: Accuracy and F1-score
@@ -85,7 +84,7 @@ Goal: generate faces conditioned on a target emotion.
 
 ---
 
-## 🔬 Hybrid Strategy
+##Hybrid Strategy
 
 The hybrid approach is explored at two levels:
 
@@ -146,7 +145,7 @@ Macro-average: **27.9%**
 
 ---
 
-## 💻 Implementation
+## Implementation
 
 The entire implementation is provided in the Jupyter notebook:
 
